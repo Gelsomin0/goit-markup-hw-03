@@ -135,10 +135,10 @@ ul {
     display: flex;
     justify-content: center;
     column-gap: 24px;
+    padding-bottom: 120px;
 }
 .section:nth-child(4) {
     padding: 120px 156px;
-    margin-top: 120px;
 }
 .section:nth-child(4) > ul {
     display: flex;
@@ -281,6 +281,9 @@ ul {
     justify-content: center;
     margin-bottom: 120px;
 }
-.content > li {
-    border: 1px solid var(--cornflower);
+.border {
+    border-bottom: 1px solid var(--cornflower);
+    border-left: 1px solid var(--cornflower);
+    border-right: 1px solid var(--cornflower);
+    border-top: 1px solid white;
 }
