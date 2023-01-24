@@ -203,11 +203,15 @@ body {
 
 .advantages {
     display: flex;
-    gap: 24px;
+    justify-content: space-between;
 }
 
 .advantages-section {
-    padding-bottom: 60px;
+    padding-bottom: 0px;
+}
+
+.advantages-item {
+    width: 264px;
 }
 
 .advantage-title {
